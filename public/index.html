@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devflix</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="loginPage">
+        <div class="fundoFilmes">
+        </div>
+        <form class="painelLogin" action="index.html" method="post">
+            <div class="logoDevflix">
+                <img src="./images/devflix.png" alt="">
+            </div>
+            <h1 class="tituloLogin">LOGIN</h1>
+            <input type="text" class="usuario" name="" placeholder="Usuário" id="usuario">
+            <input type="password" class="senha" name="" placeholder="Senha" id="senha">
+            <button type="button" class="botaoLogin"  value="entrar" id="botaoEntrar">LOGIN</button>
+        </form>
+    </div>
+
+    <div id="indexPage">
+        <div class="wrapper">
+
+            <!-- HEADER -->
+            <header>
+                <div class="netflixLogo">
+                    <a id="logo" href="#home"><img src="./images/devflix.png" alt="Logo Image"></a>
+                </div>
+                <nav class="main-nav">
+                    <a href="#home">Página Inicial</a>
+                    <a href="#tvShows">Seriados</a>
+                    <a href="#movies">Filmes</a>
+                    <a href="#originals">Originais</a>
+                </nav>
+                <nav class="sub-nav">
+                    <button type="button" class="botaoLogout" id="logoutButton" value="sair">Sair</button>
+                </nav>
+            </header>
+            <!-- END OF HEADER -->
+
+            <!-- MAIN CONTAINER -->
+            <section class="main-container">
+                <div class="location" id="home">
+                    <h1 id="home">Populares no Netflix</h1>
+                    <div class="box">
+                        <a href="#" class="click-filme" data-id="geostormIntro"><img
+                                src="./images/geostorm.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="greysAnat"><img
+                                src="./images/greys.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="gambito"><img
+                                src="./images/gambito.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="jurassic"><img
+                                src="./images/jurassic.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="crown"><img
+                                src="./images/crown.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="hill"><img
+                                src="./images/hill.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="lucifer"><img
+                                src="./images/lucifer.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="peaky"><img
+                                src="./images/peaky.JPG"
+                                alt=""></a>
+                    </div>
+
+                    <div id="aqui1"></div>
+
+                    <h1 id="myList">Em alta</h1>
+                    <div class="box">
+                        <a href="#"class="click-filme" data-id="gambito"><img
+                                src="./images/gambito.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="friends"><img
+                                src="./images/friends.JPG"
+                                alt=""></a>
+                        <a href="#"class="click-filme" data-id="vida"><img
+                                src="./images/avidaemoutros.JPG"
+                                alt=""></a>
+                        <a href="#"class="click-filme" data-id="aranha"><img
+                                src="./images/homemaranha.JPG"
+                                alt=""></a>
+                        <a href="#"class="click-filme" data-id="greysAnat"><img
+                                src="./images/greys.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="batman"><img
+                                src="./images/batman.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="crown"><img
+                                src="./images/crown.JPG"
+                                alt=""></a>
+                        <a href="#"class="click-filme" data-id="planeta"><img
+                                src="./images/nossoplaneta.JPG"
+                                alt=""></a>
+                    </div>
+                    <div id="aqui12"></div>
+
+                    <h1 id="tvShows">Seriados</h1>
+                    <div class="box">
+                        <a href="#" class="click-filme" data-id="breaking"><img
+                                src="./images/breakingbad.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="gambito"><img
+                                src="./images/gambito.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="friends"><img
+                                src="./images/friends.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="peaky"><img
+                                src="./images/peaky.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="rain"><img
+                                src="./images/therain.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="lacasa"><img
+                                src="./images/casadepapel.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="dark"><img
+                                src="./images/dark.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="walking"><img
+                                src="./images/walkingdead.JPG"
+                                alt=""></a>
+                    </div>
+                    <div id="aqui3"></div>
+                        
+                    <h1 id="movies">Filmes</h1>
+                    <div class="box">
+                        <a href="#" class="click-filme" data-id="origem"><img
+                                src="./images/aorigem.jpg"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="geostorm"><img
+                                src="./images/geostorm.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="jurassic"><img
+                                src="./images/jurassic.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="aranha"><img
+                                src="./images/homemaranha.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="batman"><img
+                                src="./images/batman.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="diabo"><img
+                                src="./images/odiabo.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="it"><img
+                                src="./images/it.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="velozes"><img
+                                src="./images/velozes.JPG"
+                                alt=""></a>
+                    </div>
+
+                    <div id="aqui4"></div>
+
+                    <h1 id="originals">Netflix Originals</h1>
+                    <div class="box">
+                        <a href="#" class="click-filme" data-id="peaky"><img
+                                src="./images/peaky.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="hill"><img
+                                src="./images/hill.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="diabo"><img
+                                src="./images/odiabo.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="gambito"><img
+                                src="./images/gambito.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="vida"><img
+                                src="./images/avidaemoutros.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="lucifer"><img
+                                src="./images/lucifer.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="dark"><img
+                                src="./images/dark.JPG"
+                                alt=""></a>
+                        <a href="#" class="click-filme" data-id="crown"><img
+                                src="./images/crown.JPG"
+                                alt=""></a>
+                    </div>
+                    <div id="aqui5"></div>
+
+            </section>
+            <!-- END OF MAIN CONTAINER -->
+
+            <!-- FOOTER -->
+            <footer>
+                <p>©copy 1997-2020 Netflix, Inc.</p>
+                <p>Douglas Dhein e Pedro Machado @copy 2020</p>
+            </footer>
+        </div>
+
+        <script src="./bundle.js"></script>
+</body>
+
+</html>
